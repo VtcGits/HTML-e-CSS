@@ -1,0 +1,154 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'ffonte';
+    src: url(fontes/idroid.otf);
+}
+body{
+    text-align: justify;
+    background-color: #E7E5C3;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+header{
+    margin: 0px;
+    background-image: linear-gradient(#49DE8B, #1B623A);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 35px 0px 0px 0px;
+    text-shadow: 1px 1px 1px black;
+}
+
+header > p{
+    margin: 35px;
+    text-align: center;
+}
+
+header > h1{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+}
+
+nav{
+    padding: 10px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    padding: 10px 0px;
+    height: 15px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #49DE8B;
+    padding: 10px;
+}
+
+nav > a:hover{
+    background-color: #49de8c57;
+    border-radius: 5px;
+    color: #1A5C38;
+    text-shadow: none;
+}
+
+main{
+    border-radius: 0px 0px 10px 10px;
+    width: 850px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 3px 5px 13px rgba(0, 0, 0, 0.514);
+    text-wrap: wrap;
+    overflow: auto;
+    height: 1000px;
+    
+}
+
+a{
+    color: #1A5C38;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+strong{
+    color: #1A5C38;
+}
+
+p{
+    text-indent: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.princ1{
+    padding: 10px;
+}
+
+main h2{
+    background-image: linear-gradient(to right,#88f5b98f, white );
+    padding-left: 5px;
+}
+
+.fontedf{
+    font-family: 'ffonte';
+    color: #1A5C38;
+}
+
+.imagemdif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; 
+}
+
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.campoescuro{
+    background-color: #1A5C38;
+    margin: 10px 0px 0px 0px;
+}
+
+#ext2{
+    background-color: #49DE8B;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#extra{
+    margin: 20px;
+    background-color: #88e0b0;
+    border-radius: 10px;
+}
+
+ul{
+    list-style-type: '\2713\00A0\00A0';
+    
+}
+
+abbr{
+    text-decoration: underline;
+}
+
+footer{
+    padding: 4px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > p{
+    margin: 0px;
+}
